@@ -1,0 +1,16 @@
+{
+    "history_path": "e:/history_data/jsy/rb/",
+    "history_file_path": "e:/history_data/jsy/rb/tick_history/",
+    "tick_file_path": "e:/history_data/1208_1219/rb/tick/",
+    "data_path": "e:/history_data/1208_1219/rb/",
+
+    "server_mongodb_ip": "192.168.1.1",
+    "server_mongodb_port": 27017,
+    "server_mongodb_user": "user",
+    "server_mongodb_pwd": "password",
+    "local_mongodb_ip": "localhost",
+    "local_mongodb_port": 27017,
+
+    "win_tick_file_path":"e:/history_data/tick_file/",
+    "linux_tick_file_path":"/data/tick_data/"
+}

@@ -1,0 +1,16 @@
+{
+    "working": true,
+    "windows_tick_file_path":"e:/history_data/tick_file/",
+    "linux_tick_file_path":"/data/tick_data/",
+    "tick":
+    [
+    ],
+
+    "bar":
+    [
+    ],
+
+    "active":
+    {
+    }
+}

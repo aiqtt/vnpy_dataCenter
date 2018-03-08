@@ -1,0 +1,8 @@
+/.idea/
+
+/dataTools/record/temp/
+/vnpy/api/qdp/docs/
+/vnpy/api/shzd/docs/
+*.pyc
+*.log
+*.con

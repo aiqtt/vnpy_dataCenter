@@ -1,0 +1,26 @@
+{
+	"fontFamily": "微软雅黑",
+	"fontSize": 12,
+
+	"mongoHost": "192.168.1.1",
+	"mongoPort": 27017,
+	"mongoUser": "mongoUser",
+	"mongoPassword": "mongoPassword",
+	"mongoLogging": true,
+
+  	"mysqlHost": "localhost",
+	"mysqlPort": 3306,
+	"mysqlUser": "mysqlUser",
+	"mysqlPassword":"mysqlPassword",
+    "mysqlDb":"aiqtt",
+
+	"darkStyle": true,
+	"language": "chinese",
+
+	"logActive": true,
+	"logLevel": "debug",
+	"logConsole": true,
+	"logFile": true,
+
+	"tdPenalty": ["IF", "IH", "IC"]
+}

@@ -1,27 +1,14 @@
-# dataCenter
+# vnpy_dataCenter
 
 期货数据处理中心
+# 数据中心功能说明
+## 期货市场数据记录
+- 使用父进程控制子进程的启动和停止的方式，来保持程序稳定运行
+- 对期货市场所有的合约进行记录，按合约，每天保存一份文件
+- 用tick实时生成常用的各种bar数据保存到mongodb
+## 历史tick数据转换为bar数据
+- 历史tick数据是每合约一个文件
+- 需要预先创建规定的目录结构
 
-1.历史数据目录格式说明：
-tick_bar            #数据根目录
-|__rb                   #品种名称（多个）
-    |__1min             #1min-bar目录
-        |__rb1801.txt   #bar文件（多个）
-    |__3min             #3min-bar目录
-        |__rb1801.txt
-    |__5min
-        |__rb1801.txt
-    |__15min
-        |__rb1801.txt
-    |__30min
-        |__rb1801.txt
-    |__60min
-        |__rb1801.txt
-    |__day
-        |__rb1801.txt
-    |__tick             #转换格式后的历史tick数据
-        |__rb1801.txt
-    |__tick_history     #历史tick数据
-        |__rb1801.txt
 
 

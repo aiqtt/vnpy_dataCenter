@@ -12,6 +12,10 @@
 - 修改了BarManager，可以生成任意分钟bar
 - BarManager分为两个，DataRecord中实时的，和txt文件转换的FileBarManager
 - 历史tick文件的转换，需要预先创建规定的目录结构
+### 界面
+- 本程序无运行界面
 
-
+##技术交流、商务合作
+- qq群：538665416
+- 群内提供历史行情数据
 

@@ -1,8 +1,8 @@
 {
-    "history_path": "e:/history_data/jsy/rb/",
-    "history_file_path": "e:/history_data/jsy/rb/tick_history/",
-    "tick_file_path": "e:/history_data/1208_1219/rb/tick/",
-    "data_path": "e:/history_data/1208_1219/rb/",
+    "history_path": "e:/history_data/rb/",
+    "history_file_path": "e:/history_data/rb/tick_history/",
+    "tick_file_path": "e:/history_data/rb/tick/",
+    "data_path": "e:/history_data/rb/",
 
     "server_mongodb_ip": "192.168.1.1",
     "server_mongodb_port": 27017,
